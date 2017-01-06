@@ -1,0 +1,16 @@
+.main{
+    padding:6em 2em;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: gray;
+}
+
+@media screen and (max-width: 760px) {
+    .main{
+        font-size:0.6em;
+        color: gray;
+    }
+    form{
+        width:40%;
+    }
+}

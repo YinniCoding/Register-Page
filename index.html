@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>JustCA 招新注册界面</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body style="background:lightblue;color:white;">
+<!--navbar-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" />
+<div class="container">
+    <div class="navabr-header"><!--头部样式-->
+        <a href="#" class="navbar-brand">MENU</a> <!--标签样式-->
+    </div>
+      <!--小屏幕自动隐藏-->
+      <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav"> <!--li样式-->
+              <li><a href="http://www.justca.com">JustCA官网</a></li>
+              <li><a href="#">关于我们</a></li>
+          </ul>
+      </div>
+</div>
+</nav>
+<!--main-->
+<div class="container">
+    <div class="main">
+        <h1>2016计协招新信息录入界面</h1>
+    </div>
+</div>
+<!--form-->
+<div class="container">
+    <form role="form" action="http://localhost/dataget02.php" method="post" class="form1" style="margin-left:auto;margin-right:auto;padding:7em -4em;width:20em;">
+        <div class="form-group">
+            <!--<span class="form-control glyphicon glyphicon-user"></span>-->
+            <label class="glyphicon glyphicon-send"></label>
+            <input class="form-control " name="number" type="number" placeholder="学号">
+        </div>
+        <div class="form-group">
+            <!--<span class="form-control glyphicon glyphicon-user"></span>-->
+            <label class="glyphicon glyphicon-user"></label>
+            <input class="form-control " name="name" type="text" placeholder="姓名">
+        </div>
+        <div class="form-group">
+            <!--<span class="form-control glyphicon glyphicon-user"></span>-->
+            <label class="glyphicon glyphicon-book"></label>
+            <select class="form-control" name="major" type="text" style="width:100%;">
+                <option>软件工程(k)</option>
+                <option>冶金(k)</option>
+                <option>机制(k)</option>
+                <option>机电(k)</option>
+            </select>
+            <p class="form-control-static">专业:k为校区，s为苏理工</p>
+        </div>
+        <div class="form-group">
+            <!--<span class="form-control glyphicon glyphicon-user"></span>-->
+            <label class="glyphicon glyphicon-earphone"></label>
+            <input class="form-control " name="tel" type="tel" placeholder="手机">
+        </div>
+        <div class="form-group">
+            <!--<span class="form-control glyphicon glyphicon-user"></span>-->
+            <label class="glyphicon glyphicon-home "></label>
+            <input class="form-control " name="address" type="text" placeholder="籍贯">
+            <p class="form-control-static">形式如:江苏徐州</p>
+        </div>
+        <div class="form-group">
+            <!--<span class="form-control glyphicon glyphicon-user"></span>-->
+            <!--<label class="glyphicon glyphicon-book "></label>-->
+            <!--<input class="form-control " type="submit" value="提交">-->
+            <!--<p class="form-control-static">形式如:江苏徐州</p>-->
+        </div>
+
+        <button type="submit" class="btn btn-success" style="margin-left: 39%;width: 20%;">提交</button>
+    </form>
+
+</div>
+
+</body>
+</html>
